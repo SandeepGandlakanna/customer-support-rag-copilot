@@ -13,14 +13,21 @@ from dotenv import load_dotenv
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
+# Load local .env file
 load_dotenv(PROJECT_ROOT / ".env")
 
-APP_API_KEY = os.getenv("APP_API_KEY")
-
+# Backend API URL
 API_URL = os.getenv(
     "API_URL",
     "http://127.0.0.1:8000/ask"
 )
+
+# Read API key from Streamlit Cloud secrets first.
+# If unavailable, fall back to the local .env file.
+try:
+    APP_API_KEY = st.secrets["APP_API_KEY"]
+except (KeyError, FileNotFoundError):
+    APP_API_KEY = os.getenv("APP_API_KEY")
 
 
 # ==========================================
@@ -48,7 +55,8 @@ if not APP_API_KEY:
 
     st.error(
         "APP_API_KEY is missing. "
-        "Please configure it in your .env file."
+        "Please configure it in your .env file "
+        "or Streamlit Cloud secrets."
     )
 
     st.stop()
