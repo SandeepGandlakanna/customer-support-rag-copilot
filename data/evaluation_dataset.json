@@ -1,0 +1,75 @@
+
+[
+  {
+    "question": "What is the refund policy?",
+    "expected_document": "1. What is the refund policy?"
+  },
+  {
+    "question": "How can I request a refund?",
+    "expected_document": "1. What is the refund policy?"
+  },
+  {
+    "question": "Can I get my money back after purchasing a product?",
+    "expected_document": "1. What is the refund policy?"
+  },
+  {
+    "question": "How many days do I have to return a product?",
+    "expected_document": "1. What is the refund policy?"
+  },
+  {
+    "question": "How do I reset my password?",
+    "expected_document": "2. How can I reset my password?"
+  },
+  {
+    "question": "I forgot my login password. What should I do?",
+    "expected_document": "2. How can I reset my password?"
+  },
+  {
+    "question": "How can I recover access to my account?",
+    "expected_document": "2. How can I reset my password?"
+  },
+  {
+    "question": "Where can I find the forgot password option?",
+    "expected_document": "2. How can I reset my password?"
+  },
+  {
+    "question": "How can I contact customer support?",
+    "expected_document": "3. How can I contact support?"
+  },
+  {
+    "question": "Where should I raise a support request?",
+    "expected_document": "3. How can I contact support?"
+  },
+  {
+    "question": "How do I contact the customer service team?",
+    "expected_document": "3. How can I contact support?"
+  },
+  {
+    "question": "Can I contact support about my order?",
+    "expected_document": "3. How can I contact support?"
+  },
+  {
+    "question": "What is the employee leave policy?",
+    "expected_document": null
+  },
+  {
+    "question": "Where is the company office located?",
+    "expected_document": null
+  },
+  {
+    "question": "What are the working hours of the company?",
+    "expected_document": null
+  },
+  {
+    "question": "What payment methods are accepted?",
+    "expected_document": null
+  },
+  {
+    "question": "How can I cancel my subscription?",
+    "expected_document": null
+  },
+  {
+    "question": "Does the company provide health insurance?",
+    "expected_document": null
+  }
+]

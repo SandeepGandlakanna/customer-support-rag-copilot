@@ -1,0 +1,90 @@
+{
+    "total_questions": 12,
+    "average_answer_overlap_score": 0.63,
+    "results": [
+        {
+            "question": "What is the refund policy?",
+            "expected_answer": "Customers can request a refund within 30 days of purchase. The product must meet the applicable refund conditions.",
+            "generated_answer": "- Customers may request a refund within **30 days of purchase**.  \n- The product must satisfy the applicable refund conditions.",
+            "status": "answered",
+            "answer_overlap_score": 0.75
+        },
+        {
+            "question": "How can I request a refund?",
+            "expected_answer": "Customers can request a refund within 30 days of purchase. The product must meet the applicable refund conditions.",
+            "generated_answer": "You can request a refund by:\n\n- Submitting your request within 30 days of purchase.  \n- Ensuring the product meets the applicable refund conditions.",
+            "status": "answered",
+            "answer_overlap_score": 0.81
+        },
+        {
+            "question": "Can I get my money back after purchasing a product?",
+            "expected_answer": "Customers can request a refund within 30 days of purchase. The product must meet the applicable refund conditions.",
+            "generated_answer": "Yes, you can receive a refund if you meet the policy requirements.\n\n- Request the refund within **30 days** of purchase.  \n- Ensure the product satisfies the applicable refund conditions.",
+            "status": "answered",
+            "answer_overlap_score": 0.75
+        },
+        {
+            "question": "How many days do I have to return a product?",
+            "expected_answer": "Customers can request a refund within 30 days of purchase. The product must meet the applicable refund conditions.",
+            "generated_answer": "You have **30 days** from the date of purchase to return the product.",
+            "status": "answered",
+            "answer_overlap_score": 0.12
+        },
+        {
+            "question": "How do I reset my password?",
+            "expected_answer": "Open the login page and select Forgot Password. Follow the instructions sent to your registered email.",
+            "generated_answer": "Open the login page and select **Forgot Password**. Then follow the instructions sent to your registered email.",
+            "status": "answered",
+            "answer_overlap_score": 0.87
+        },
+        {
+            "question": "I forgot my login password. What should I do?",
+            "expected_answer": "Open the login page and select Forgot Password. Follow the instructions sent to your registered email.",
+            "generated_answer": "Open the login page, click **Forgot Password**, and then follow the instructions sent to your registered email.",
+            "status": "answered",
+            "answer_overlap_score": 0.73
+        },
+        {
+            "question": "How can I recover access to my account?",
+            "expected_answer": "Open the login page and select Forgot Password. Follow the instructions sent to your registered email.",
+            "generated_answer": "You can recover access by resetting your password:\n\n- Open the login page and click **Forgot Password**.  \n- Follow the instructions sent to your registered email.",
+            "status": "answered",
+            "answer_overlap_score": 0.8
+        },
+        {
+            "question": "Where can I find the forgot password option?",
+            "expected_answer": "Open the login page and select Forgot Password. Follow the instructions sent to your registered email.",
+            "generated_answer": "The **Forgot Password** option is located on the login page—just open the login page and click “Forgot Password.”",
+            "status": "answered",
+            "answer_overlap_score": 0.33
+        },
+        {
+            "question": "How can I contact customer support?",
+            "expected_answer": "Customers can contact support through the support portal.",
+            "generated_answer": "You can contact support through the **support portal**.  \n*If your inquiry is about an order, include your order ID when you submit your request.*",
+            "status": "answered",
+            "answer_overlap_score": 0.71
+        },
+        {
+            "question": "Where should I raise a support request?",
+            "expected_answer": "Customers can contact support through the support portal.",
+            "generated_answer": "Raise your support request through the **support portal**.  \n\n- Include your order ID if your request concerns an order.",
+            "status": "answered",
+            "answer_overlap_score": 0.43
+        },
+        {
+            "question": "How do I contact the customer service team?",
+            "expected_answer": "Customers can contact support through the support portal.",
+            "generated_answer": "- Contact support through the **support portal**.  \n- If your inquiry is about an order, be sure to **include your order ID** in the message.",
+            "status": "answered",
+            "answer_overlap_score": 0.57
+        },
+        {
+            "question": "Can I contact support about my order?",
+            "expected_answer": "Customers can contact support through the support portal. Include your order ID when asking about an order.",
+            "generated_answer": "Yes. You can contact support about your order through the support portal—just include your order ID when you submit your request.",
+            "status": "answered",
+            "answer_overlap_score": 0.69
+        }
+    ]
+}
