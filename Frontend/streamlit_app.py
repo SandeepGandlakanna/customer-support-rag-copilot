@@ -17,7 +17,10 @@ load_dotenv(PROJECT_ROOT / ".env")
 
 APP_API_KEY = os.getenv("APP_API_KEY")
 
-API_URL = "http://127.0.0.1:8000/ask"
+API_URL = os.getenv(
+    "API_URL",
+    "http://127.0.0.1:8000/ask"
+)
 
 
 # ==========================================
